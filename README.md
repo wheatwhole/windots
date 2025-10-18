@@ -1,5 +1,6 @@
 # windows-rain
-my windows 11 rice with blue and white accents on black, based off the [Catppuccin Mocha palette](https://catppuccin.com/palette/). inspired by niivu's themes, cobalt.tools, and catppuccin.
+my cozy windows 11 setup with blue and white accents on black, based on the [Catppuccin Mocha palette](https://catppuccin.com/palette/). 
+inspired by niivu's themes, cobalt.tools, and catppuccin.
 see below for instructions.
 
 ---

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{00000000-0000-0000-0000-000000000000}",
+  "profiles": {
+    "defaults": {
+      "font": {
+        "face": "Cascadia Code PL",
+        "size": 12
+      },
+      "cursorShape": "bar",
+      "useAcrylic": true,
+      "opacity": 0.5,
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "colorScheme": "Catppuccin Mocha",
+      "padding": "10",
+      "scrollbarState": "hidden"
+    },
+    "list": [
+      {
+        "guid": "{00000000-0000-0000-0000-000000000000}",
+        "name": "CMD",
+        "commandline": "cmd.exe"
+      },
+      {
+        "guid": "{11111111-1111-1111-1111-111111111111}",
+        "name": "PowerShell",
+        "commandline": "powershell.exe"
+      },
+      {
+        "guid": "{22222222-2222-2222-2222-222222222222}",
+        "name": "WSL",
+        "commandline": "wsl.exe"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Catppuccin Mocha",
+      "background": "#1e1e2e",
+      "foreground": "#cdd6f4",
+      "black": "#11111b",
+      "red": "#f38ba8",
+      "green": "#a6e3a1",
+      "yellow": "#f9e2af",
+      "blue": "#89b4fa",
+      "purple": "#cba6f7",
+      "cyan": "#94e2d5",
+      "white": "#cdd6f4",
+      "brightBlack": "#6c7086",
+      "brightRed": "#eba0ac",
+      "brightGreen": "#94e2d5",
+      "brightYellow": "#f9e2af",
+      "brightBlue": "#89dceb",
+      "brightPurple": "#b4befe",
+      "brightCyan": "#74c7ec",
+      "brightWhite": "#f5e0dc",
+      "cursorColor": "#f5c2e7",
+      "selectionBackground": "#282936"
+    }
+  ]
+}

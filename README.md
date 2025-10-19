@@ -18,7 +18,8 @@ note: you'll need microsoft edge installed to use the bar. you dont have use it 
 winget install --id=karlstav.cava  -e
 ```
 restart the pc after installing
-## required fonts
+
+# required fonts
 without these fonts icons wont load and text will be messed up
 
 1. [click to download the SF Pro Font](https://github.com/chris-short/apple-san-francisco-pro-fonts/archive/refs/heads/main.zip)
@@ -29,9 +30,11 @@ without these fonts icons wont load and text will be messed up
 
 4. do the same for the [JetBrainsMono NFP Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
 
+5. [Fira Code Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip)
+
 # windhawk
 1. get windhawk: https://windhawk.net/
 
-2. get and enable the following mods: Taskar Clock Customization, Taskbar height and icon size, Windows 11 Start Menu Styler, Windows 11 Taskbar Styler
+2. get and enable the following mods: Taskar Clock Customization, Taskbar height and icon size, Windows 11 Start Menu Styler, Windows 11 Taskbar Styler, Windows 11 Notification Center Styler 
 
 3. in each mod go to advanced and paste the respective json files into the Mod Settings

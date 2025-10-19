@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 8,
+  "default_container_padding": 8,
+  "border": true,
+  "border_width": 2,
+  "border_offset": 0,
+  "border_style": "Rounded",
+  "theme": {
+    "palette": "Catppuccin",
+    "name": "Mocha",
+    "single_border": "Blue",
+    "unfocused_border": "Blue",
+    "floating_border": "Blue",
+    "monocle_border": "Blue",
+    "stack_border": "Blue"
+  },
+  "floating_applications":[
+    {
+      "id":"eawfeaeffefafeaew",
+      "kind":"Title",
+      "matching_strategy": "DoesNotStartWith"
+    }
+  ],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "Landing",
+          "layout": "BSP"
+        },
+        {
+          "name": "Dev / Work",
+          "layout": "BSP"
+        },
+        {
+          "name": "Study",
+          "layout": "HorizontalStack"
+        },
+        {
+          "name": "Browse / Chat",
+          "layout": "Columns"
+        },
+        {
+          "name": "Game / Focus",
+          "layout": "BSP",
+          "tile": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,23 @@
 # windows-rain
 my cozy windows 11 setup with blue and white accents on black, based on the [Catppuccin Mocha palette](https://catppuccin.com/palette/). 
 inspired by niivu's themes, cobalt.tools, and catppuccin.
-see below for instructions.
+see below for instructions
 
 ---
-# yasb
-## config
+## required fonts
+without these fonts icons wont load and text will be messed up
+
+1. [click to download the SF Pro Font](https://github.com/chris-short/apple-san-francisco-pro-fonts/archive/refs/heads/main.zip)
+
+2. extract the font files to a folder
+
+3. select all the font files at once -> right click -> "Install"
+
+4. do the same for the [JetBrainsMono NFP Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
+
+5. [Fira Code Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip)
+
+## yasb
 1. get YASB: https://github.com/amnweb/yasb
 2. find the yasb config files (usually in C:\Users\<username>\.config\yasb)
 3. paste the config.yml file into the yasb folder
@@ -19,22 +31,16 @@ winget install --id=karlstav.cava  -e
 ```
 restart the pc after installing
 
-# required fonts
-without these fonts icons wont load and text will be messed up
-
-1. [click to download the SF Pro Font](https://github.com/chris-short/apple-san-francisco-pro-fonts/archive/refs/heads/main.zip)
-
-2. extract the font files to a folder
-
-3. select all the font files at once -> right click -> "Install"
-
-4. do the same for the [JetBrainsMono NFP Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
-
-5. [Fira Code Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip)
-
-# windhawk
+## windhawk
 1. get windhawk: https://windhawk.net/
 
 2. get and enable the following mods: Taskar Clock Customization, Taskbar height and icon size, Windows 11 Start Menu Styler, Windows 11 Taskbar Styler, Windows 11 Notification Center Styler 
 
 3. in each mod go to advanced and paste the respective json files into the Mod Settings
+
+## terminal
+1. get terminal: https://github.com/microsoft/terminal
+2. download the [settings.json](terminal\settings.json) from the terminal folder
+3. go to %UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+4. paste in the settings.json file
+

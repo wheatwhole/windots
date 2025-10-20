@@ -9,8 +9,10 @@
  * @authorId 508863359777505290
  * @authorLink https://www.refact0r.dev
 */
+/*
+catpuccin mocha palate
+
 :root {
-  /* Catppuccin Mocha Palette */
   --rosewater: oklch(92.26% 0.0238 30.49);
   --flamingo: oklch(87.97% 0.0418 17.98);
   --pink: oklch(87% 0.0752 336.3);
@@ -37,7 +39,7 @@
   --base: oklch(24.29% 0.0304 283.9);
   --mantle: oklch(21.55% 0.0254 284.1);
   --crust: oklch(18.28% 0.0204 284.2);
-}
+} */
 
 /* import theme modules */
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');

@@ -1,13 +1,19 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
-    "alwaysOnTop": true,
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": [
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        }
+    ],
+    "alwaysOnTop": false,
+    "autoHideWindow": false,
+    "compatibility.enableUnfocusedAcrylic": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "keybindings": 
-    [
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "keybindings": [
         {
             "id": "Terminal.CopyToClipboard",
             "keys": "ctrl+c"
@@ -19,35 +25,36 @@
         {
             "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "ctrl+f11"
         }
     ],
-    "newTabMenu": 
-    [
+    "launchMode": "focus",
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "adjustIndistinguishableColors": "never",
             "antialiasingMode": "grayscale",
+            "backgroundImage": null,
             "colorScheme": "Catppuccin Mocha",
+            "elevate": false,
             "experimental.rainbowSuggestions": true,
             "experimental.retroTerminalEffect": false,
-            "font": 
-            {
+            "font": {
                 "face": "Fira Code",
                 "weight": "semi-bold"
             },
-            "opacity": 91,
+            "opacity": 100,
             "padding": "12",
-            "showMarksOnScrollbar": false,
-            "useAcrylic": false
+            "showMarksOnScrollbar": false
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -71,11 +78,17 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
-    "schemes": 
-    [
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": [
         {
             "background": "#1E1E2E",
             "black": "#45475A",
@@ -101,25 +114,21 @@
         }
     ],
     "showTabsFullscreen": false,
-    "theme": "dark",
-    "themes": 
-    [
+    "theme": "Catppuccin Mocha",
+    "themes": [
         {
             "name": "Catppuccin Mocha",
-            "tab": 
-            {
+            "tab": {
                 "background": "#1E1E2EFF",
                 "iconStyle": "default",
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "tabRow": 
-            {
+            "tabRow": {
                 "background": "#181825FF",
                 "unfocusedBackground": "#11111BFF"
             },
-            "window": 
-            {
+            "window": {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
                 "frame": null,
@@ -127,5 +136,6 @@
                 "useMica": false
             }
         }
-    ]
+    ],
+    "useAcrylicInTabRow": false
 }

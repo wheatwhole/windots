@@ -3,53 +3,89 @@
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
-  "default_workspace_padding": 8,
-  "default_container_padding": 8,
+  "transparency": true,
+  "transparency_alpha": 254,
+  "default_workspace_padding": 2,
+  "default_container_padding": 4,
   "border": true,
-  "border_width": 2,
+  "border_width": 3,
   "border_offset": 0,
-  "border_style": "Rounded",
+  "mouse_follows_focus": false,
+  "animation": {
+    "enabled": true,
+    "duration": 300,
+    "fps": 160,
+    "style": "EaseOutBack"
+  },
   "theme": {
     "palette": "Catppuccin",
     "name": "Mocha",
-    "single_border": "Blue",
+    "single_border": "Green",
     "unfocused_border": "Blue",
-    "floating_border": "Blue",
-    "monocle_border": "Blue",
-    "stack_border": "Blue"
+    "focused_border": "Green",
+    "floating_border": "Lavender",
+    "stack_border": "Yellow",
+    "monocle_border": "Red"
   },
-  "floating_applications":[
-    {
-      "id":"eawfeaeffefafeaew",
-      "kind":"Title",
-      "matching_strategy": "DoesNotStartWith"
-    }
-  ],
   "monitors": [
     {
       "workspaces": [
         {
-          "name": "Landing",
+          "name": "I",
           "layout": "BSP"
         },
         {
-          "name": "Dev / Work",
-          "layout": "BSP"
+          "name": "II",
+          "layout": "VerticalStack"
         },
         {
-          "name": "Study",
+          "name": "III",
           "layout": "HorizontalStack"
-        },
-        {
-          "name": "Browse / Chat",
-          "layout": "Columns"
-        },
-        {
-          "name": "Game / Focus",
-          "layout": "BSP",
-          "tile": false
         }
       ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "Home",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "3",
+          "layout": "HorizontalStack"
+        }
+      ]
+    }
+  ],
+  "floating_applications": [
+    {
+      "kind": "Exe",
+      "id": "Files.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ACShadows.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Overwatch.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Photos.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "PotPlayerMini64.exe",
+      "matching_strategy": "Equals"
     }
   ]
 }

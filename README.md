@@ -171,7 +171,7 @@ scoop install main/imagemagick fastfetch
 %UserProfile%\.config\fastfetch
 ```
 
-4. Paste the config file from [./fastfetch/config.jsonc]
+4. Paste the config file from [./fastfetch/config.jsonc](url)
 
 If images do not render:
 

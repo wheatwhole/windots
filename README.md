@@ -75,7 +75,7 @@ This section modifies Explorer and system theming.
 
 ## YASB (status bar)
 
-1. Install YASB
+1. Install YASB and run it
    [https://github.com/amnweb/yasb](https://github.com/amnweb/yasb)
 
 2. Locate YASB config directory
@@ -97,6 +97,7 @@ This section modifies Explorer and system theming.
 6. **Microsoft Edge must be installed**
    You do not need to use it. YASB depends on it internally.
 
+* If yasb wallpapers are not working, try deleting the yasb.log 
 ### Audio visualizer (CAVA)
 
 Install CAVA:

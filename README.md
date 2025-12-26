@@ -9,11 +9,7 @@ Inspired by **niivu’s Windows themes**, **cobalt.tools**, and **Catppuccin**.
 ## Before you start (important)
 
 * **Create a Windows restore point** before applying everything.
-* You **must update file paths** to your home directory in:
-
-  * `komorebi.json`
-  * `fastfetch/config.jsonc`
-  * `yasb/config.yaml`
+* You'll need scoop package installer
 * You'll also need the latest version of windows powershell
 
 Skipping this will break things.

@@ -133,20 +133,11 @@ Restart the PC after installing.
 1. Install Windows Terminal
    [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 
-2. Download `settings.json` from:
+2. Download [./terminal/settings.json](./terminal/settings.json)
 
-   ```
-   terminal/settings.json
-   ```
-
-3. Go to:
-
-   ```
-   %UserProfile%\AppData\Local\Packages\
-   Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
-   ```
-
-4. Replace the existing `settings.json`
+3. Go to Terminal's settings
+  
+5. Replace the existing `settings.json`
 
 ---
 

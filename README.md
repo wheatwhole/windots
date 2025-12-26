@@ -1,4 +1,4 @@
-# windots
+a# windots
 
 A cozy **One Piece Windows 11 rice** with blue and white accents, based on the [Catppuccin Mocha palette](https://catppuccin.com/palette/).
 
@@ -150,6 +150,10 @@ Requirements:
 
 ```
 scoop install fastfetch
+```
+
+```
+fastfetch --gen-config
 ```
 
 Fastfetch repo:

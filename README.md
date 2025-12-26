@@ -188,7 +188,9 @@ If images do not render:
 ---
 
 ## Optional tools
-
+### komorebi
+The tiling manager i use. Also has config in [./komorebi](./komorebi)
+https://github.com/LGUG2Z/komorebi
 ### AltSnap
 
 Improves window dragging behavior.

@@ -14,6 +14,7 @@ Inspired by **niivu’s Windows themes**, **cobalt.tools**, and **Catppuccin**.
   * `komorebi.json`
   * `fastfetch/config.jsonc`
   * `yasb/config.yaml`
+* You'll also need the latest version of windows powershell
 
 Skipping this will break things.
 

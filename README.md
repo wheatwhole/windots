@@ -171,8 +171,8 @@ scoop install main/imagemagick fastfetch
 
 If images do not render:
 
-* Use `.sixel` files
-* Set image type to `raw` in the config
+* Use `.sixel` files and set image type to `raw` in the config
+* Look at the wezterm.lua config and check if the image exists
 
 ---
 
